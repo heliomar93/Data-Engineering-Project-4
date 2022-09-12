@@ -79,7 +79,7 @@ In the output database, the infos are partitioned by the first name of the user.
 ### Songs dataset
 These files contains songs in the music database.
 We get this data from the song data. We select 5 columns: song_id, title, artist_id, year and duration.
-The data in the output bucket are partitioned by the title of the song.
+The data in the output bucket are partitioned by the year of the song and the artist_id.
 
 ### Artists dataset
 We have here the information about the artists.
